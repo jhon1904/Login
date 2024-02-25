@@ -1,0 +1,70 @@
+:root {
+	--rojo: #E50914;
+	--fondo: #000000;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background: var(--fondo);
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, .20) 0%, rgba(0,0,0,.50) 100%), url(hero-img.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+
+form {
+
+    width: 350px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.70);
+    padding-top: 10px;
+    margin: 130px auto;
+    border-radius: 10px;
+    box-shadow: 7px 7px 5px rgba(221, 221, 221, 0.40);
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+input {
+    background: rgba(221, 221, 221, 0.8);
+    font-size: 15px;
+    padding: 7px;
+    display: flex;
+    margin: 10px auto;
+    border-radius: 6px;
+}
+
+label {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    margin: 10px;
+}
+
+input[type="button"] {
+    color: rgb(255, 255, 255);
+    width: 106px;
+    margin-top: 50px;
+    font-size: 15px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.288);
+    cursor: pointer;    
+}
+
+input[type="button"]:hover {
+    color: rgb(15, 14, 14);
+    background-color: rgb(240, 240, 240);   
+}
