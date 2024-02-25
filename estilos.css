@@ -11,15 +11,38 @@
 }
 
 
-.brand img {
-    width: 180px;
-}
 body {
     background: var(--fondo);
     font-family: 'Open Sans', sans-serif;
     background: linear-gradient(rgba(0, 0, 0, .20) 0%, rgba(0,0,0,.50) 100%), url(hero-img.jpg);
 	background-position: center center;
 	background-size: cover;
+}
+
+.brand img {
+    width: 180px;
+}
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	padding: 30px 0;
+}
+
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logotipo {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: normal;
+	color: var(--rojo);
+	font-size: 40px;
 }
 
 
