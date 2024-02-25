@@ -91,7 +91,19 @@ input[type="button"] {
     cursor: pointer;    
 }
 
+
 input[type="button"]:hover {
     color: rgb(15, 14, 14);
     background-color: rgb(240, 240, 240);   
 }
+
+@media screen and (max-width: 800px) {
+	header .logotipo {
+		margin-bottom: 10px;
+		font-size: 30px;
+	}
+
+	header .contenedor {
+		flex-direction: column;
+		text-align: center;
+	}
