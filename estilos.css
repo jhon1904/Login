@@ -29,9 +29,6 @@ body {
 	margin: auto;
 }
 
-header {
-	padding: 30px 0;
-}
 
 header .contenedor {
 	display: flex;
@@ -123,4 +120,3 @@ img {
 		flex-direction: column;
 		text-align: center;
 	}
-
