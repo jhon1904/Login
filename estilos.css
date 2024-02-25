@@ -20,7 +20,8 @@ body {
 }
 
 .brand img {
-    width: 180px;
+    width: 400px;
+    height: 200px;    
 }
 
 .contenedor {
@@ -52,7 +53,7 @@ form {
     height: 450px;
     background: rgba(0, 0, 0, 0.70);
     padding-top: 0px;
-    margin: 130px auto;
+    margin: 30px auto;
     border-radius: 10px;
     box-shadow: 7px 7px 5px rgba(221, 221, 221, 0.40);
 }
@@ -103,7 +104,7 @@ a {
 	margin-left: 85px;
     display: flex;
 	align-items: center;
-    margin-top: 45px;   
+    margin-top: 25px;   
 }
 
 img {
@@ -122,3 +123,4 @@ img {
 		flex-direction: column;
 		text-align: center;
 	}
+
